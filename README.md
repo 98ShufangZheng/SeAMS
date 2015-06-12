@@ -4,7 +4,7 @@ Semi Automated Mapping System (SeAMS)
 Ciaran Robb, Neil Arnold, Ian Willis 
 
 
-Scott Polar Research Institute, University of Cambridge, Lensfield
+Scott Polar Research Institute, University of Cambridge, Lensfield Rd, Cambridge, UK, CB1 1ER.
 
 Corresponding author: Ciaran Robb, cr485@cam.ac.uk
 
@@ -37,11 +37,8 @@ Dependencies
 ------------
 
 Matlab image processing and statistics toolboxes.
-
 The software is developed/tested in Linux environment with Matlab & gcc.
-
 Some algorithms will require the mex files compiled for windows 64bit use (see above).
-
 
 Sample data
 -----------
