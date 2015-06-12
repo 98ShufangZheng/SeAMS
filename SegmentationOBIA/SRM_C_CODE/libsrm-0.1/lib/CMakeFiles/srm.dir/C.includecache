@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/srm.c
+stdlib.h
+-
+math.h
+-
+string.h
+-
+stdint.h
+-
+assert.h
+-
+unionfind.h
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/unionfind.h
+srm.h
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/srm.h
+
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/srm.h
+
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/unionfind.c
+stdlib.h
+-
+unionfind.h
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/unionfind.h
+
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/unionfind.h
+

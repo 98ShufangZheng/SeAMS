@@ -1,0 +1,8 @@
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/CMakeFiles/dist.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/image.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib/CMakeFiles/srm.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/stats.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/uf.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/video.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/video_sub.dir
+/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/examples/CMakeFiles/webcam.dir

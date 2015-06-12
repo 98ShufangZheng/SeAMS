@@ -1,0 +1,32 @@
+This is a companion, C Source Code for the TPAMI'04 paper:
+
+    "Statistical Region Merging"
+    by Richard Nock, Frank Nielsen
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+To compile: type 
+   gmake -k, or simply make
+
+Running the program's help: type
+   ./srm -h
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+SRM works on tiff images, *uncompressed*, with *indexed color space*. Do not use RGB color space,
+or you will probably get a bus error. An easy way to covert from this color space to that color space is to use
+gimp, convert your tiff to gif (which transforms the (RGB) color space to indexed), and then return to tiff.
+
+Make sure you have the usual tiff libraries to compile the software (headers tiff.h, tiffio.h). If not,
+have a look at http://www.remotesensing.org/libtiff/
+
+This is the 2004 version of our program, lightly adapted in 2012 to compile on a Mac Pro 64 bits.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Here comes the usual, ultra short and important notice on the program:
+
+ *** It is provided AS IS, without ANY guarantee;
+ *** It is provided for research purpose only;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Comments are much welcomed, at:
+   rnock@martinique.univ-ag.fr
+

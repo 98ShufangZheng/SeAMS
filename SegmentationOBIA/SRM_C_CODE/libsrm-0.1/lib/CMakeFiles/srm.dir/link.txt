@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -std=gnu99 -pedantic -Wall -g   -shared -Wl,-soname,libsrm.so -o libsrm.so CMakeFiles/srm.dir/unionfind.c.o CMakeFiles/srm.dir/srm.c.o 

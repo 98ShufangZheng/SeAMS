@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=gnu99 -pedantic -Wall -g    CMakeFiles/uf.dir/uf.c.o  -o uf -rdynamic ../lib/libsrm.so -lm -Wl,-rpath,/home/ciaran/Documents/MATLAB/CiaranIM/OBIA_TOOLBOX2/SegmentationOBIA/SRM_C_CODE/libsrm-0.1/lib 

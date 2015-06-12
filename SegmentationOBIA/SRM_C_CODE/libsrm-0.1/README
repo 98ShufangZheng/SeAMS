@@ -1,0 +1,96 @@
+Statistical Region Merging library
+==================================
+
+Description
+-----------
+
+Libsrm is a C implementation of the Statistical Region Merging algorithm
+(SRM), as described in TPAMI'04 or PR'05 (see Bibliography_ for more
+details). This implementation works in real-time for 320x240 images and
+is able to process the stream from a webcam (see Examples_).
+
+.. image:: examples/lena.png
+.. image:: examples/lena-segmented.png
+
+See the `Java applet <http://www.sonycsl.co.jp/person/nielsen/SRM/>`_ for
+an online demonstration of the method.
+
+Installation
+------------
+
+The build system is based on ``cmake``. The library can be built using the
+following instructions::
+
+  cmake .
+  make
+
+and installed with::
+
+  make install
+
+You can use a custom prefix with::
+
+  cmake . -DCMAKE_INSTALL_PREFIX=/your/prefix
+
+Python bindings
+---------------
+
+Python bindings are available in the ``python/`` subdirectory. Please have
+a look at the README file inside this directory for installation
+instructions.
+
+Examples
+--------
+
+Many examples are provided in the ``examples/`` subdirectory. You can
+compile them with::
+
+  cd examples
+  make
+
+You will need the `OpenCV <http://opencv.willowgarage.com>`_ library and
+its development headers.
+
+There are also some examples for the Python binding inside
+``python/examples``.
+
+Download
+--------
+
+Latest version is available at
+http://www.lix.polytechnique.fr/~schwander/libsrm.
+
+Directly:
+http://www.lix.polytechnique.fr/~schwander/libsrm/libsrm-0.1.tar.gz
+
+Darcs repository: http://www.lix.polytechnique.fr/~schwander/darcs/libsrm/
+
+.. _Bibliography:
+
+Bibliography
+------------
+
+- R. Nock, F. Nielsen: *Semi-supervised statistical region refinement for color image segmentation*. Pattern Recognition 38(6): 835-846 (2005)
+- R. Nock, F. Nielsen: *Statistical Region Merging*. IEEE Trans. Pattern Anal. Mach. Intell. 26(11): 1452-1458 (2004)
+- F. Nielsen: `Visual Computing: Geometry, Graphics, and Vision <http://www.sonycsl.co.jp/person/nielsen/visualcomputing/>`_. Charles River Media, ISBN 1-58450-427-7 (2005)
+- F. Nielsen, R. Nock: *On Region Merging: The Statistical Soundness of Fast Sorting, with Applications*. CVPR (2) 2003: 19-26
+
+Other implementations
+---------------------
+
+- A Java implementation by one of the original authors, F. Nielsen: http://www.lix.polytechnique.fr/~nielsen/Srmjava.java
+- A Matlab implemention by S. Boltz: http://www.mathworks.com/matlabcentral/fileexchange/25619-image-segmentation-using-statistical-region-merging
+
+Bugs and comments
+-----------------
+
+Please send any comments or bug reports to Olivier Schwander
+<olivier.schwander@polytechnique.edu>.
+
+License
+-------
+
+Python-srm is free software, released under the term of the BSD license.
+
+Copyright 2012 Olivier Schwander <olivier.schwander@polytechnique.edu>, École Polytechnique
+
